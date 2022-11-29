@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(1, 41, 114);
+  position: sticky;
+  top: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col {
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.img_eye {
+  text-align: left;
+  width: 70px;
+}
+
+.img2 {
+  text-align: right;
+  margin: 0;
+  width: 450px;
+}
+
+.nav_list {
+  text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_list :hover {
+  opacity: 0.65;
+}
+
+.nav_link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+}
+
+main {
+  background-color: rgb(4, 0, 255);
+  text-align: center;
+}
+.titulo {
+  text-align-last: left;
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 1rem;
+}
+
+.display {
+  text-transform: capitalize;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  padding-bottom: 20%;
+}
+.pincipal {
+  color: white;
+  font-size: 1.25rem;
+}
+.datos {
+  color: white;
+  font-size: 0.85rem;
+  text-transform: capitalize;
+}
+
+.seguir {
+  color: white;
+}
+
+.fa-brands {
+  color: white;
+  font-size: 4rem;
+  justify-content: space-around;
+}
+
+.tex_nos {
+  color: white;
+  font-size: 1rem;
+}
+
+body {
+  background-color: black;
+}
+
+.titl {
+  color: black;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
+  text-align: left;
+}
+
+.titl2 {
+  text-align: left;
+  color: rgb(255, 121, 11);
+  font-size: 3rem;
+  padding-top: 10%;
+  padding-left: 15px;
+}
+
+.texti {
+  font-size: 2rem;
+  padding-left: 15px;
+}
+
+.suc {
+  font-size: 1.56rem;
+}
+
+.suc_1 {
+  padding-top: 10%;
+}
+
+.suc_1:hover {
+  color: rgb(255, 121, 11);
+}
+
+.hlp {
+  font-size: 2rem;
+  padding-top: 5%;
+}
+
+.contac {
+  font-size: 2.5rem;
+  padding-top: 5%;
+}
